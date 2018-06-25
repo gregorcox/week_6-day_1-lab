@@ -11,5 +11,12 @@ public class CalculatorTest {
     public void before() { calculator = new Calculator(); }
 
     @Test
-    public void add() { assertEquals (4, calculator.add(2,2));}
+    public void canAdd() { assertEquals (4, calculator.add(2,2));}
+
+    @Test
+    public void canSubtract() {
+        assertEquals(4, calculator.subtract(7,3));
+    }
+
+    @
 }
