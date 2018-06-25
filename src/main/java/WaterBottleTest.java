@@ -25,4 +25,10 @@ public class WaterBottleTest {
         assertEquals(0, waterBottle.getVolume());
     }
 
+    @Test
+    public void fillIncreasesVolumeto100() {
+        waterBottle.fill();
+        assertEquals(100, waterBottle.getVolume());
+    }
+
 }
