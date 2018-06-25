@@ -18,5 +18,10 @@ public class CalculatorTest {
         assertEquals(4, calculator.subtract(7,3));
     }
 
-    @
+    @Test
+    public void canMultiply(){
+        assertEquals(4, calculator.multiply(2,2));
+    }
+
+
 }
